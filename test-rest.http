@@ -1,0 +1,29 @@
+POST http://localhost:3000/nuovo-clienti HTTP/1.1
+Content-Type: application/json
+
+{
+    "nome": "nome",
+    "cognome": "cognome",
+    "email": "email",
+    "password": "password"
+}
+
+###
+PUT http://localhost:3000/modifica-ordini/10279 HTTP/1.1
+Content-Type: application/json
+
+{
+        "customerId": "cisco",
+        "employeeId": 5,
+        "orderDate": "f",
+        "requiredDate": "1996-09-06 00:00:00.000",
+        "shippedDate": "1996-07-31 00:00:00.000",
+        "shipVia": 5,
+        "freight": 25.73,
+        "shipName": "Wartian Herkku"
+}
+
+###
+
+DELETE http://localhost:3000/elimina-categorie/1 HTTP/1.1
+
